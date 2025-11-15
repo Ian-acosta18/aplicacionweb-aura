@@ -3,8 +3,9 @@
 @section('content')
 
 {{-- 
-    He adaptado tu nuevo HTML para que funcione dentro de la plantilla Blade. 
-    Usará los estilos que pegaste en public/css/style.css.
+    Este es el código HTML de tu catálogo.
+    He cambiado las rutas de las imágenes (proX.jpg)
+    para que usen las imágenes que sí tienes (spaX.jpg, spa_uñas_rojas.jpg, etc.)
 --}}
 
 <div class="catalogo-container">
@@ -20,8 +21,8 @@
 
         <div class="producto-card">
             <div class="producto-imagen-wrapper">
-                {{-- Uso la imagen de tu proyecto anterior --}}
-                <img src="{{ asset('imagen/pro1.jpg') }}" alt="Avyna Pozione 10" class="producto-imagen">
+                {{-- CAMBIO: 'pro1.jpg' por 'spa1.jpg' --}}
+                <img src="{{ asset('imagen/spa1.jpg') }}" alt="Producto de spa" class="producto-imagen">
                 <div class="producto-overlay">
                     <span class="ver-mas">Ver detalles</span>
                 </div>
@@ -38,7 +39,8 @@
 
         <div class="producto-card">
             <div class="producto-imagen-wrapper">
-                <img src="{{ asset('imagen/pro2.jpg') }}" alt="Avyna Finale Ialuronico" class="producto-imagen">
+                {{-- CAMBIO: 'pro2.jpg' por 'spa2.jpg' --}}
+                <img src="{{ asset('imagen/spa2.jpg') }}" alt="Producto de spa" class="producto-imagen">
                 <div class="producto-overlay">
                     <span class="ver-mas">Ver detalles</span>
                 </div>
@@ -54,7 +56,8 @@
 
         <div class="producto-card">
             <div class="producto-imagen-wrapper">
-                <img src="{{ asset('imagen/pro3.jpg') }}" alt="Veruska Alissant Thermique" class="producto-imagen">
+                {{-- CAMBIO: 'pro3.jpg' por 'spa_cama_lacer.jpg' --}}
+                <img src="{{ asset('imagen/spa_cama_lacer.jpg') }}" alt="Tratamiento" class="producto-imagen">
                 <div class="producto-overlay">
                     <span class="ver-mas">Ver detalles</span>
                 </div>
@@ -70,7 +73,8 @@
 
         <div class="producto-card">
             <div class="producto-imagen-wrapper">
-                <img src="{{ asset('imagen/pro4.jpg') }}" alt="Veruska Colágeno en Emulsión" class="producto-imagen">
+                {{-- CAMBIO: 'pro4.jpg' por 'spa_lacer_verde.jpg' --}}
+                <img src="{{ asset('imagen/spa_lacer_verde.jpg') }}" alt="Tratamiento láser" class="producto-imagen">
                 <div class="producto-overlay">
                     <span class="ver-mas">Ver detalles</span>
                 </div>
@@ -87,7 +91,8 @@
 
         <div class="producto-card">
             <div class="producto-imagen-wrapper">
-                <img src="{{ asset('imagen/pro5.jpg') }}" alt="Veruska Bi-Faseta Texturi" class="producto-imagen">
+                {{-- CAMBIO: 'pro5.jpg' por 'spa_risos.jpg' --}}
+                <img src="{{ asset('imagen/spa_risos.jpg') }}" alt="Cabello rizado" class="producto-imagen">
                 <div class="producto-overlay">
                     <span class="ver-mas">Ver detalles</span>
                 </div>
@@ -103,7 +108,8 @@
 
         <div class="producto-card">
             <div class="producto-imagen-wrapper">
-                <img src="{{ asset('imagen/pro6.jpg') }}" alt="Veruska Gel Force Antique" class="producto-imagen">
+                {{-- CAMBIO: 'pro6.jpg' por 'spa_risos_corona.jpg' --}}
+                <img src="{{ asset('imagen/spa_risos_corona.jpg') }}" alt="Peinado" class="producto-imagen">
                 <div class="producto-overlay">
                     <span class="ver-mas">Ver detalles</span>
                 </div>
@@ -120,7 +126,8 @@
 
         <div class="producto-card">
             <div class="producto-imagen-wrapper">
-                <img src="{{ asset('imagen/pro7.jpg') }}" alt="Veruska Clinique Treatment" class="producto-imagen">
+                {{-- CAMBIO: 'pro7.jpg' por 'spa_uñas_aura.jpg' --}}
+                <img src="{{ asset('imagen/spa_uñas_aura.jpg') }}" alt="Manicura" class="producto-imagen">
                 <div class="producto-overlay">
                     <span class="ver-mas">Ver detalles</span>
                 </div>
@@ -136,7 +143,8 @@
 
         <div class="producto-card">
             <div class="producto-imagen-wrapper">
-                <img src="{{ asset('imagen/pro8.jpg') }}" alt="Veruska Dual Color Mask" class="producto-imagen">
+                {{-- CAMBIO: 'pro8.jpg' por 'spa_uñas_rojas.jpg' --}}
+                <img src="{{ asset('imagen/spa_uñas_rojas.jpg') }}" alt="Uñas rojas" class="producto-imagen">
                 <div class="producto-overlay">
                     <span class="ver-mas">Ver detalles</span>
                 </div>
@@ -152,7 +160,8 @@
 
         <div class="producto-card">
             <div class="producto-imagen-wrapper">
-                <img src="{{ asset('imagen/pro9.jpg') }}" alt="Veruska Fresh Curls & Liss" class="producto-imagen">
+                {{-- CAMBIO: 'pro9.jpg' por 'spa_reseña.jpg' --}}
+                <img src="{{ asset('imagen/spa_reseña.jpg') }}" alt="Reseña de spa" class="producto-imagen">
                 <div class="producto-overlay">
                     <span class="ver-mas">Ver detalles</span>
                 </div>
@@ -168,7 +177,8 @@
 
         <div class="producto-card">
             <div class="producto-imagen-wrapper">
-                <img src="{{ asset('imagen/pro10.jpg') }}" alt="Veruska Equinua Hiding Cream" class="producto-imagen">
+                {{-- CAMBIO: 'pro10.jpg' por 'spa_fondo_trabajo.jpg' --}}
+                <img src="{{ asset('imagen/spa_fondo_trabajo.jpg') }}" alt="Equipo de spa" class="producto-imagen">
                 <div class="producto-overlay">
                     <span class="ver-mas">Ver detalles</span>
                 </div>
